@@ -105,6 +105,79 @@ article {
   font-weight: 700;
 }
 
+.is-reviews {
+  padding: 30px 30px 60px;
+
+  color: #fff;
+  background-color: #383856;
+}
+
+.is-reviews h2 {
+  padding-bottom: 30px;
+
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+blockquote {
+  position: relative;
+
+  max-width: 360px;
+  margin: 0 auto 20px;
+  padding: 60px 20px 25px 30px;
+
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+blockquote::before {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  width: 24px;
+  height: 24px;
+
+  content: "";
+
+  background-image: url(../img/quote.svg);
+}
+
+blockquote:last-of-type {
+  margin-bottom: 0;
+}
+
+q {
+  display: inline-block;
+
+  padding-bottom: 30px;
+
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+cite {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+blockquote footer {
+  display: flex;
+
+  align-items: center;
+}
+
+blockquote footer img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
 
 
 
