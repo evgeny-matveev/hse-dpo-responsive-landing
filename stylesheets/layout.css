@@ -27,7 +27,8 @@ header {
   text-align: center;
 }
 
-h1 {
+h1,
+.is-advantages h2 {
   padding-bottom: 20px;
 
   font-family: "Roboto", sans-serif;
@@ -75,6 +76,10 @@ article {
 
 .is-advantages {
   padding: 0 30px 60px;
+}
+
+.is-advantages h2 {
+  display: none;
 }
 
 .is-advantages article {
