@@ -21,7 +21,7 @@ header {
   align-items: center;
 }
 
-section.is-hero {
+.is-hero {
   padding: 110px 13px 80px;
 
   text-align: center;
@@ -30,8 +30,6 @@ section.is-hero {
 h1 {
   padding-bottom: 20px;
 
-  text-align: center;
-
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -39,8 +37,6 @@ h1 {
 }
 
 p {
-  text-align: center;
-
   color: rgba(0, 0, 0, 0.5);
 
   font-family: "Roboto", sans-serif;
@@ -60,7 +56,7 @@ p {
   font-weight: 700;
 }
 
-section.is-hero p {
+.is-hero p {
   padding-bottom: 30px;
 }
 
@@ -287,9 +283,3 @@ blockquote footer img {
 .the-last-true-footer a {
   color: rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-/*  */
