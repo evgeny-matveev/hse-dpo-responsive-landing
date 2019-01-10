@@ -112,7 +112,8 @@ article {
   background-color: #383856;
 }
 
-.is-reviews h2 {
+.is-reviews h2,
+.is-price h2 {
   padding-bottom: 30px;
 
   text-align: center;
@@ -177,6 +178,98 @@ blockquote footer img {
   margin-right: 10px;
 }
 
+.is-price {
+  padding: 0 30px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.is-price h2 {
+  padding-top: 60px;
+}
+
+.is-price article:first-child {
+  border: 1px solid red;
+}
+
+.is-price article:first-of-type {
+  margin-bottom: 30px;
+}
+
+.is-price article {
+  padding: 20px 20px 40px;
+}
+
+.is-price h3 {
+  line-height: 120%;
+}
+
+.is-price h4 {
+  position: relative;
+
+  padding-bottom: 34px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.is-price h4::after {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+
+  width: 100%;
+
+  content: "";
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.is-price ul {
+  padding-left: 35px;
+}
+
+.is-price ul li {
+  position: relative;
+
+  padding-right: 23px;
+  padding-bottom: 19px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+}
+
+.is-price ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+/*
+  19px — .is-price ul li { padding-bottom: 19px; }
+*/
+.is-price ul li::before {
+  position: absolute;
+  top: calc(50% - 19px);
+  left: -25px;
+
+  width: 10px;
+  height: 10px;
+
+  content: "";
+  transform: translateY(50%);
+
+  border-radius: 50%;
+  background-color: #FFAC3E;
+}
+
+.is-price .btn {
+  margin-top: 48px;
+
+  color: #000;
+  border-radius: 2px;
+  background: #FFAC3E;
+}
 
 
 
