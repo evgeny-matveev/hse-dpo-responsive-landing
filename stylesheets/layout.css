@@ -271,8 +271,22 @@ blockquote footer img {
   background: #FFAC3E;
 }
 
+.the-last-true-footer {
+  display: flex;
 
+  padding: 96px 15px 13px;
 
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+
+  justify-content: space-between;
+}
+
+.the-last-true-footer a {
+  color: rgba(0, 0, 0, 0.5);
+}
 
 
 
