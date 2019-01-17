@@ -87,7 +87,7 @@
   .is-price article h3 {
     margin-bottom: 5px;
   }
-  .btn {
+  .is-price .btn {
     margin-left: 10px;
   }
   .price-wrapper {
