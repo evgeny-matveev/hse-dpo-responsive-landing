@@ -137,6 +137,22 @@
     font-family: "Roboto", sans-serif;
     font-size: 12px;
   }
+  .is-hero h1 {
+    width: 410px;
+
+    font-size: 36px;
+  }
+  .is-hero p {
+    width: 410px;
+
+    font-size: 18px;
+  }
+  .is-hero-inner::after {
+    top: 70%;
+
+    width: 263px;
+    height: 474px;
+  }
 }
 
 
