@@ -107,6 +107,39 @@
   }
 }
 
+@media (min-width: 1024px) {
+  #menu-icn {
+    display: none;
+  }
+  header {
+    z-index: 10;
+
+    padding: 20px 90px 0;
+  }
+  .logo {
+    width: 50px;
+  }
+  nav {
+    display: block;
+  }
+  nav ul li {
+    display: inline-block;
+
+    padding-left: 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: inherit;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+}
+
+
 
 
 

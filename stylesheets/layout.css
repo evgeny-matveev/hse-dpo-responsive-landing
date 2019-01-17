@@ -21,6 +21,10 @@ header {
   align-items: center;
 }
 
+nav {
+  display: none;
+}
+
 .is-hero {
   padding: 110px 13px 80px;
 
